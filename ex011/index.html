@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Imagens dinâminas</title>
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(0, 189, 189);
+        }
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens Dinâminas</h1>
+    <p>Tente abrir essa imagem em vários dispositivos diferentes, ou simplesmente aumente e diminua a janela do navegador</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="img/img-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="img/img-m.png" type="image/png">
+        <img src="img/img-g.png" alt="img-g">
+
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.ogg" type="audio/ogg">
+
+        <p>infelizmente seu navegador não conseguiu repordzir audio :/. <a href="audio/audio.mp3"></a>Clique aqui para baixar</p>
+    </audio>
+
+    
+</body>
+</html>
